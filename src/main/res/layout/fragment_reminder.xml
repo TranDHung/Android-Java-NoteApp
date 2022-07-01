@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#252323"
+    android:layout_height="match_parent"
+    tools:context=".ReminderFragment">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Đây là trang hiện các nhắc nhỡ"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="#DC6666"/>
+
+</FrameLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_baseline_search"
+        android:title="search"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_views"
+        android:icon="@drawable/ic_baseline_grid_view"
+        android:title="view"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_changepass"
+        android:title="Đổi mật khẩu"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_logout"
+        android:title="Đăng xuất"
+        app:showAsAction="never" />
+
+</menu>

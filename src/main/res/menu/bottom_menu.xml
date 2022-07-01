@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Thêm ảnh"
+        android:icon="@drawable/ic_baseline_add_photo_alternate"
+        android:id="@+id/addPicture"
+        app:showAsAction="always"/>
+    <item android:title="Thêm Video"
+        android:icon="@drawable/ic_baseline_video_file"
+        android:id="@+id/addVideo"
+        app:showAsAction="always"/>
+    <item android:title="Thêm Ghi âm"
+        android:icon="@drawable/ic_baseline_audiotrack"
+        android:id="@+id/addRecord"
+        android:orderInCategory="1"
+        app:showAsAction="always"/>
+
+</menu>

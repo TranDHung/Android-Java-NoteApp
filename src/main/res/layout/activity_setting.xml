@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarsetting"
+        android:layout_width = "match_parent"
+        android:background="#FFFFFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/Theme.NoteAppFinal.PopupOverlay"
+        android:layout_height = "?attr/actionBarSize" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="12dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/changefontIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_font"/>
+        <TextView
+            android:id="@+id/changeFont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:textSize="20dp"
+            android:text="Thiết lập kích thước, font chữ"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="12dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/changeMusicIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_queue_music"/>
+        <TextView
+            android:id="@+id/changeMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:textSize="20dp"
+            android:text="Thay đổi âm báo nhắc nhỡ"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="12dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/changePassIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_change_circle"/>
+        <TextView
+            android:id="@+id/changePass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:textSize="20dp"
+            android:text="Thay đổi mật khẩu"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="12dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/shareNoteIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_share"/>
+        <TextView
+            android:id="@+id/shareNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:textSize="20dp"
+            android:text="Chia sẻ với người dùng"/>
+        <Switch
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_note"
+            android:icon="@drawable/ic_baseline_note"
+            android:title="Ghi chú" />
+        <item
+            android:id="@+id/nav_reminder"
+            android:icon="@drawable/ic_baseline_notifications_none"
+            android:title="Lời nhắc" />
+    </group>
+
+    <item android:title="Nhãn">
+        <menu>
+            <item
+                android:id="@+id/nav_labels"
+                android:icon="@drawable/ic_baseline_add"
+                android:title="Tạo nhãn mới" />
+            <item
+                android:id="@+id/nav_ma_labels"
+                android:icon="@drawable/ic_baseline_mana"
+                android:title="Quản lý nhãn" />
+        </menu>
+    </item>
+    <item android:title="Khác">
+        <menu>
+            <item
+                android:id="@+id/nav_recycle_bin"
+                android:icon="@drawable/ic_baseline_delete_outline"
+                android:title="Thùng rác" />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_baseline_settings"
+                android:title="Cài đặt" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_logout"
+                android:title="Đăng xuất" />
+        </menu>
+    </item>
+</menu>
